@@ -285,7 +285,7 @@ echo "
 
 <div id="ret"></div>
 
-<div class="container" id="imgC" style="display: flex">
+<div class="container sticky-top" id="imgC" style="display: flex">
 
 </div>
 <br>
