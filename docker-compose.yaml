@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+
+
+  app-bling:
+    
+    container_name: app-bling
+    image: app-bling
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    volumes:
+      - ./:/home/www
+    ports:
+      - "8085:80"
+
