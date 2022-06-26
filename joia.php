@@ -54,7 +54,6 @@ function to_file($s){
 
 $url = "https://calcecomestilo.com/image/MKTPLACE/LADYLU/PULSEIRAS/";
 $titulo_base = "Pulseira Articulada Feminina e Masculina [nome] [tamanho]MM LadyLu";
-$desc_base = "Sobressaia-se com a <nome>. A joia possui acabamento impecável e produzida com material de alta qualidade. O modelo do fechamento dessa pulseira articulada confere a peça segurança e um design  moderno e cheio de estilo. Detalhes sobre as medidas da peça podem ser encontrados nas fotos do anuncio. ";
 
 
 $sku = (isset($_POST['sku']) ?$_POST['sku']: '');
@@ -78,7 +77,9 @@ $sku_lower = strtolower($sku);
 
 
 $skuF = "LADYLU-P$tamanho-".to_sku($sku);
-$titulo = "Pulseira Articulada Feminina e Masculina $sku $tamanho"."MM LadyLu";
+//$titulo = "Pulseira Articulada Feminina e Masculina $sku $tamanho"."MM LadyLu";
+
+include "variaveis.php";
 
 $descricao = espaco($desc_base,$titulo,"<nome>");
 
