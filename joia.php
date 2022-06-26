@@ -82,6 +82,7 @@ $skuF = "LADYLU-P$tamanho-".to_sku($sku);
 include "variaveis.php";
 
 $descricao = espaco($desc_base,$titulo,"<nome>");
+$descricao = espaco($descricao,$tamanho,"<tamanho>");
 
 //$file_name_base = (isset($_POST['file_name_base']) ?$_POST['file_name_base']: '');
 $file_name_base = to_file($titulo);
