@@ -23,8 +23,9 @@ function unlinkRecursive($dir)
     closedir($dh); 
     return; 
 } 
+include "variaveis.php";
 
-$target_dir = "img/".$_POST["pasta"];
+$target_dir = $dir_img .$_POST["pasta"];
 
 unlinkRecursive($target_dir);
 
