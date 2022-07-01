@@ -1,0 +1,16 @@
+abrir o docker
+
+abrir o cmd nessa pasta
+
+shift + click direito > abrir power shell
+
+docker-compose up -d 
+
+navegador
+
+http://localhost:8085/joia.php
+
+
+
+
+fecha inferno
