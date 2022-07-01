@@ -143,8 +143,17 @@ function del_click(ev){
 }
 
 
+usa_base
+$( "#usa_base" ).click(function(e) {
 
+  sku = $( "#sku" ).val()
+  titulo_base = $( "#titulo_base" ).val()
+  descricao_base = $( "#descricao_base" ).val()
 
+  $( "#titulo" ).val(titulo_base.replace("<sku>", sku))
+  $( "#descricao" ).text(descricao_base.replace("<sku>", sku))
+
+})
 
 $( ".bt_get" ).click(function(e) {
 

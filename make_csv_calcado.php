@@ -50,7 +50,7 @@ global $all;
     $csv[]=$all["marca"];
     $csv[]="";
     $csv[]="1";
-    $csv[]=$all["descricao"];
+    $csv[]='"'.$all["descricao"].'"';
     $csv[]=$all["cross"];
     $csv[]=$d["img"];
     $csv[]="";

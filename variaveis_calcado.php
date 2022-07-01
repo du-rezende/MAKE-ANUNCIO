@@ -19,3 +19,15 @@ $myv_profundidade = "5";
 
 $myv_pasta_img = "CAT";
 $dir_img = "img/shoes/$myv_pasta_img/";
+
+
+
+
+$titulo_base = "Bota Masculina Trabalho em Couro com Palmilha em GEL Forte Resistente e Confortável <sku>";
+
+$descricao_base = "Bota Masculina Trabalho em Couro com Palmilha em GEL Forte Resistente e Confortável <sku> é robusta confortável e durável
+Indicado para atividade profissional, segurança, militar e adventure
+Palmilha em GEL com ajuste anatômico, Absorve o impacto e Confere conforto para o dia-a-dia
+Forro de malha de náilon macio e respirável
+Forro do colarinho em microfibra respirável e macio
+Sola exterior de borracha durável e com perfeita tração";

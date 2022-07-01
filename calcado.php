@@ -58,7 +58,7 @@ function to_file($s){
 
 
 $url = "https://calcecomestilo.com/image/MKTPLACE/LADYLU/PULSEIRAS/";
-$titulo_base = "Pulseira Articulada Feminina e Masculina [nome] [tamanho]MM LadyLu";
+//$titulo_base = "Pulseira Articulada Feminina e Masculina [nome] [tamanho]MM LadyLu";
 
 
 $sku = (isset($_POST['sku']) ?$_POST['sku']: '');
@@ -204,12 +204,12 @@ include "make_csv_calcado.php";
 
 <div class="mb-3 col-3">
   <label for="exampleFormControlInput1" class="form-label">SKU</label>
-  <input type="text" class="form-control" name="sku" value="<?php echo $sku; ?>" >
+  <input type="text" class="form-control" name="sku" id="sku" value="<?php echo $sku; ?>" >
 </div>
 
 <div class="mb-3 col-9">
   <label for="exampleFormControlInput1" class="form-label">TITULO</label>
-  <input type="text" class="form-control" name="titulo" value="<?php echo $titulo; ?>" >
+  <input type="text" class="form-control" name="titulo" id="titulo" value="<?php echo $titulo; ?>" >
 </div>
 
 </div>
@@ -248,7 +248,7 @@ include "make_csv_calcado.php";
 
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">DESCRICAO</label>
-  <textarea class="form-control" id="descricao" name="descricao" rows="5"><?php echo $descricao; ?></textarea>
+  <textarea class="form-control" id="descricao" name="descricao" id="descricao" rows="5"><?php echo $descricao; ?></textarea>
 </div>
 
 <div class="mb-3 col-6">
@@ -389,6 +389,11 @@ echo '
 
 
 <div class="col-6">
+<input type="hidden"  id="titulo_base" value="<?php echo $titulo_base?>"/>
+<input type="hidden" " id="descricao_base" value="<?php echo $descricao_base?>"/>
+<button type="button" class="btn btn-primary" id="usa_base">USA BASE</button>
+
+<hr>
 
 <p><span class="text-muted">TITULO: </span><br><?php echo $titulo_base; ?></p>
 
