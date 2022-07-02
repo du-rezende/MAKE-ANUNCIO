@@ -181,7 +181,7 @@ $all["tag"]= $myv_tag;
 $all["peso"]=$myv_peso;
 $all["altura"]=$myv_lardura;
 $all["largura"]=$myv_altura;
-$all["profunfidade"]=$myv_profundidade;
+$all["profundidade"]=$myv_profundidade;
 
 
 include "make_csv_calcado.php";

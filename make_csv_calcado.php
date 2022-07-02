@@ -24,7 +24,7 @@ global $all;
     $csv[]="";
     $csv[]="";
     $csv[]="";
-    $csv[]="0,00";
+    $csv[]="500";
     $csv[]="0,00";
     $csv[]=$all["peso"];
     $csv[]=$all["peso"];

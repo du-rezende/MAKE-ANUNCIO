@@ -11,10 +11,10 @@ $myv_marca = "Calce Com Estilo";
 $myv_crossDoc = "3";
 
 //embalagem e peso
-$myv_peso = "1";
+$myv_peso = "1.5";
 $myv_lardura = "16";
 $myv_altura = "19";
-$myv_profundidade = "5";
+$myv_profundidade = "33";
 
 
 $myv_pasta_img = "CAT";
